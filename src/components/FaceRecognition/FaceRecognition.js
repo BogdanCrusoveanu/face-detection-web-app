@@ -5,7 +5,6 @@ const FaceRecognition = ({ imageUrl, box }) => {
   return (
     <div className="center ma">
       <div className="absolute mt2">
-        {console.log(box)}
         <img id="inputimage" alt="" src={imageUrl} width="500" height="auto" />
         <div
           className="bounding-box"
